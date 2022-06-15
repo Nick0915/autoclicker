@@ -9,3 +9,6 @@
 Make sure the `pynput` module is installed for you.
 You can do this by running `pip install pynput` on windows. Linux and Mac *should* be similar (don't quote me on that).
 After that, run `python autoclicker.py` (windows) in the project directory.
+
+NOTE: for now, to kill the program, you must press `ctrl+c`.
+Soon, you should be able to press escape to kill the program.
