@@ -6,7 +6,7 @@ from pynput import keyboard
 from pynput.keyboard import KeyCode, Key
 
 # clicks per second
-rate = 20
+rate = 30
 # whether clicker is toggled or not
 should_click = False
 # kill trigger
@@ -38,7 +38,7 @@ while not done:
         # press and unpress mouse left
         controller.press(Button.left)
         controller.release(Button.left)
-        print('clicked')
+        # print('clicked')
         # 1 / rate is delay
     thread_sleep(1/rate)
 
